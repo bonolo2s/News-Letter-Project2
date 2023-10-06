@@ -33,6 +33,14 @@
       text-align: center;/*
       font-size: 0;*/
     }
+    button{
+      padding: 15px 20px;
+      background-color: rgb(8, 6, 19);
+      color: white;
+      border: none;
+      width: 100%;
+      font-size: 20px;
+    }
     .column{
       display: inline-block;
     }
@@ -47,8 +55,7 @@
       text-align: center;
     }
     .last-two-column{
-      
-
+       text-align: start;
     }
     .last-two-column .column{
       width: 100%;
@@ -67,30 +74,60 @@
     }
     .Second-lst-column .column{
       width: 100%;
-      max-width: 265px;
-      margin: 10px;
-      display: inline-block;
-      vertical-align: top;
-    }
-    .Second-lst-column .columns{
-      width: 100%;
-      max-width: 350px;
+      max-width: 272px;
       display: inline-block;
       vertical-align: top;
     }
     .Second-lst-column .Column{
       width: 100%;
-      max-width: 200px;
-      height: 150px;
+      max-width: 180px;
       display: inline-block;
-      vertical-align: top;
-      background-color: rgb(51, 196, 14);
+      padding-top: 0;
     }
     .Second-lst-column .Columns{
       width: 100%;
       max-width: 350px;
       display: inline-block;
       vertical-align: top;
+    }
+    .line-height-section{
+      background-color: aliceblue;
+      line-height: 0.9;
+    }
+    @media (max-width: 600px) {
+      .img-deals{
+        width: 95%!important;
+      }
+      .three-column-section .column{
+        max-width: 100%;
+        padding: 10px;
+      }
+      button{
+        padding: 25px 0px;
+        width: 90%;
+      }
+      .grid-imgs{
+        width: 100% !important;
+      }
+      .Second-lst-column .column{
+      max-width: 100% !important;
+
+    }
+    .Second-lst-column .columns{
+      max-width: 100%;
+
+    }
+    .Second-lst-column .Column{
+      width: 100%;
+      max-width: 100% !important;
+    }
+    .content{
+      margin: 10px;
+    }
+    .line-height-section{
+      background-color: aliceblue;
+      line-height: 2;
+    }
     }
   </style>
 </head>
@@ -101,19 +138,19 @@
       <!--Header-->
         <tr style="background-color: white;">
           <td>
-            <table w="100%">
+            <table width="100%">
               <tr>
-                <td class="two-column-section">
+                <td class="two-column-section" style="padding: 10px 0;">
                   <table class="column">
                     <tr>
                       <td>
-                        <img src="assets/logo.png" alt="Logo-img" width="180">
+                        <img src="https://i.postimg.cc/tTCfzvX7/logo.png" alt="Logo" title="Logo" width="180">
                       </td>
                     </tr>
                   </table>
                   <table class="column">
                     <tr>
-                      <td>
+                      <td style="padding: 15px 0;">
                         <a href="#" style="color: rgb(78, 76, 76);font-size: 15px;margin: 0 10px;text-decoration: none;">123456789</a>
                         <a href="#" style="color: rgb(78, 76, 76);font-size: 15px;margin: 0 10px;text-decoration: none;">SmartTravel@gmial.com</a>
                         <a href="#" style="color: rgb(78, 76, 76);font-size: 15px;margin: 0 10px; text-decoration: none;">Online</a>
@@ -143,13 +180,7 @@
         <!--intro section-->
         <tr>
           <td>
-            <table width="100%">
-              <tr>
-                <td>
-                  <img src="assets/home.jpg" alt="Home-img" width="100%" style="max-width: 600px;">
-                </td>
-              </tr>
-            </table>
+            <img src="https://i.postimg.cc/1RdTpKb5/home.jpg" alt="Sea" title="Sea" width="100%" style="max-width: 600px;">
         </tr>
 
         <!--Deals of the month-->
@@ -158,9 +189,10 @@
             <table width="100%">
               <tr>
                 <td style="text-align: center;">
-                  <img src="assets/best deals.jpg" alt="Best Deals Image" width="85%">
+                  <img src="https://i.postimg.cc/T3gZ2W72/best-deals.jpg" alt="The best deals of the month" title="The best deals of the month" width="85%">
                 </td>
               </tr>
+
               <tr>
                 <td class="three-column-section">
                   <table class="column">
@@ -169,7 +201,7 @@
                         <table class="content">
                           <tr>
                             <td>
-                              <a href="#"><img src="assets/maildives.jpg" alt="maildives" width="130"></a>
+                              <a href="#"><img src="https://i.postimg.cc/zGCcYYvV/maildives.jpg" alt="Maildives,30% off" title="Maildives,30% off" width="135" class="img-deals"></a>
                             </td>
                           </tr>
                           <tr>
@@ -179,8 +211,8 @@
                               <p>Booking online in advance is guaranteed not to
                                  lose the most popular tours.
                               </p>
-                              <a href="#"><img src="assets/stars.png" alt="" style="margin: 0 0 20px;"></a>
-                              <a href="#" ><button style="padding: 15px 20px;background-color: black;color: white;border: none;">Book now</button></a>
+                              <a href="#"><img src="https://i.postimg.cc/MZcx2XSH/stars.png" alt="" style="margin: 0 0 20px;"></a>
+                              <a href="#" ><button >Book now</button></a>
                             </td>
                           </tr>
                         </table>
@@ -194,7 +226,7 @@
                         <table class="content">
                           <tr>
                             <td>
-                              <a href="#"><img src="assets/indonesia.jpg" alt="Indonesia" width="130" style="max-width: 100%; height: auto;"></a>
+                              <a href="#"><img src="https://i.postimg.cc/KjCHxZtg/indonesia.jpg" alt="Indonesia, 10% Off" title="Indonesia, 10% Off"  width="135"  class="img-deals"></a>
                             </td>
                           </tr>
                           <tr>
@@ -203,8 +235,8 @@
                               <p style="font-size: 15px;text-decoration: line-through;color: grey;display: inline;">$100</p><span style="font-size: larger;color: orange;">$90</span><span style="font-size: 15px;color: grey;">per night</span>
                               <p>Booking online in advance is guaranteed not to lose the most popular tours.
                               </p>
-                              <a href="#"><img src="assets/4stars.png" alt="" style="margin: 0 0 20px;"></a>
-                              <a href="#" ><button style="padding: 15px 20px;background-color: black;color: white;border: none;">Book now</button></a>
+                              <a href="#"><img src="https://i.postimg.cc/kMhrTCRC/4stars.png" alt="" style="margin: 0 0 20px;"></a>
+                              <a href="#" ><button>Book now</button></a>
                             </td>
                           </tr>
                         </table>
@@ -218,7 +250,7 @@
                         <table class="content">
                           <tr>
                             <td>
-                              <a href="#"><img src="assets/israel.jpg" alt="Israel" width="130" style="max-height: 100%;height: auto;"></a>
+                              <a href="#"><img src="https://i.postimg.cc/brZB7GSh/israel.jpg" alt="Israel, 50% Off" title="Israel, 50% Off" width="135" class="img-deals"></a>
                             </td>
                           </tr>
                           <tr>
@@ -227,8 +259,8 @@
                               <p style="font-size: 15px;text-decoration: line-through;color: grey;display: inline;">$220</p><span style="font-size: larger;color: orange;">$110</span><span style="font-size: 15px;color: grey;">per night</span>
                               <p>Booking online in advance is guaranteed not to lose the most popular tours
                               </p>
-                              <a href="#"><img src="assets/4stars.png" alt="" style="margin: 0 0 20px;"></a>
-                              <a href="#" ><button style="padding: 15px 20px;background-color: black;color: white;border: none;">Book now</button></a>
+                              <a href="#"><img src="https://i.postimg.cc/kMhrTCRC/4stars.png" alt="" style="margin: 0 0 20px;"></a>
+                              <a href="#" ><button>Book now</button></a>
                             </td>
                           </tr>
                         </table>
@@ -251,11 +283,11 @@
 
         <!--Recomandations-->
         <tr style="background-color: white;">
-          <td style="font-size:0px;">
+          <td>
             <table width="100%">
               <tr>
-                <td style="text-align: center;font-size:0px;">
-                  <a href="#"><img src="assets/recomendations.jpg" alt="" width="350" style="max-width: 100%;"></a>
+                <td style="text-align: center;">
+                  <a href="#"><img src="https://i.postimg.cc/hhFpN2qL/recomendations.jpg" alt="Our recomendations" title="Our recomendations" width="350" style="max-width: 100%;"></a>
                 </td>
               </tr>
               <tr>
@@ -269,23 +301,23 @@
 
         <!--Grid section-->
         <tr style="background-color: white;" >
-          <td style="padding: 10px;">
+          <td>
             <table width="100%">
               <tr>
                 <td>
                   <td class="Second-lst-column">
                     <table class="Column">
                       <tr>
-                        <td>
+                        <td >
                           <table class="content">
                             <tr>
-                              <td>
+                              <td class="line-height-section" >
                                 <p style="font-weight: bold;">Orlando, Florida</p>
                                 <p style="color: rgb(46, 44, 44);font-size: 13px;">Orlando is a city in the U.S. state of Florida and the county seat of Orange County.</p>
                               </td>
                             </tr>
                             <tr>
-                              <td><a href="#"><img src="assets/globe.jpg" alt="globe" width="100%" style="max-width: 200px;"></a></td>
+                              <td><a href="#"><img src="https://i.postimg.cc/d1xWjqHS/globe.jpg" alt="Orlando" title="Orlando" width="178" class="grid-imgs"></a></td>
                             </tr>
                           </table>
                         </td>
@@ -293,12 +325,11 @@
                     </table>
                     <table class="Columns">
                       <tr>
-                        <td>
+                        <td >
                           <table class="content">
                             <tr>
-                              <td><a href="#"><img src="assets/castle.jpg" alt="castle" width="100%" style="max-width: 400px;"></a></td>
+                              <td><a href="#"><img src="https://i.postimg.cc/wTsrFmd5/castle.jpg" alt="Orlando Walt Disney World" title="Orlando Walt Disney World" width="362" class="grid-imgs"></a></td>
                             </tr>
-  
                           </table>
                         </td>
                       </tr>
@@ -314,10 +345,10 @@
                   <table class="column">
                     <tr>
                       <td>
-                        <table class="content">
+                        <table class="content" >
                           <tr>
                             <td>
-                              <a href="#"><img src="assets/cartoon.jpg" alt="playfield" width="100%" style="max-width: 300px;"></a>
+                              <a href="#"><img src="https://i.postimg.cc/k5yzKPPk/cartoon.jpg" alt="Orlando Walt Disney World" title="Orlando Walt Disney World" width="270" class="grid-imgs"></a>
                             </td>
                           </tr>
                         </table>
@@ -330,7 +361,7 @@
                         <table class="content">
                           <tr>
                             <td>
-                              <a href="#"><img src="assets/playfield.jpg" alt="playfield" width="100%" style="max-width: 300px;"></a>
+                              <a href="#"><img src="https://i.postimg.cc/nhxtDkQ9/playfield.jpg" alt="Orlando's Famous attractions" title="Orlando's Famous attractions" width="270" class="grid-imgs"></a>
                             </td>
                           </tr>
                         </table>
@@ -342,13 +373,13 @@
             </table>
           </td>
         </tr>
-
+        
         <!--Read More Section-->
         <tr style="background-color: white;" >
           <td>
             <table width="100%">
               <tr>
-                <td style="padding: 10px;color: rgb(66, 65, 65); font-size: small;text-align: center;">
+                <td style="padding: 10px;color: rgb(66, 65, 65); font-size: small;text-align: center;line-height: 1.5;">
                   <p>As one of the world's most visited tourist destinations,
                     Orlando's famous attractions form the backbone of its tourism 
                     industry: Walt Disney World, the Universal Orlando Resort. With 
@@ -357,7 +388,7 @@
                   </p>
                   <a href="#" style="text-decoration: none;text-align: center;">
                     <p style="color: orange;font-size: large;display: inline;">Read more</p>
-                    <span><img src="assets/arrows.png" alt="" width="15"></span>
+                    <span><img src="https://i.postimg.cc/657kSPCv/arrows.png" alt="" width="15"></span>
                   </a>
                 </td>
               </tr>
@@ -367,14 +398,7 @@
 
         <!--img b4 footer section-->
         <tr>
-          <td >
-            <table width="100%">
-              <tr>
-                <td><img src="assets/ocean-waves.jpg" alt="" width="100%"></td>
-              </tr>
-              
-            </table>
-          </td>
+            <td><img src="https://i.postimg.cc/7hJKBpjP/ocean-waves.jpg" alt="Sea" title="Sea" width="100%"></td>
         </tr>
         <!--Footer section-->
         <tr>
@@ -404,10 +428,10 @@
                         <a href="#" style="color: grey;font-size: 15px;">
                           <p>123456789</p>
                         </a>
-                        <a href="#"><img src="assets/Twitter.png" alt="Twitter" width="25"></a>
-                        <a href="#"><img src="assets/FaceBook.png" alt="Facebook" width="25"></a>
-                        <a href="#"><img src="assets/YouTube.png" alt="YouTube" width="25"></a>
-                        <a href="#"><img src="assets/nx.png" alt="nx" width="25"></a>
+                        <a href="#"><img src="https://i.postimg.cc/66DK9wW0/Twitter.png" alt="Twitter" width="25"></a>
+                        <a href="#"><img src="https://i.postimg.cc/rFvBL99Y/FaceBook.png" alt="Facebook" width="25"></a>
+                        <a href="#"><img src="https://i.postimg.cc/vZvwLVWq/YouTube.png" alt="YouTube" width="25"></a>
+                        <a href="#"><img src="https://i.postimg.cc/L8KbW8Hc/nx.png" alt="nx" width="25"></a>
                       </td>
                     </tr>
                   </table>
