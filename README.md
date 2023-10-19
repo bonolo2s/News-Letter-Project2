@@ -1,9 +1,9 @@
 
-# Newsletter Email
+# Promotional Email
 
 ## Description
 
-This project is a newsletter email designed to be compatible with different email clients. It's built using HTML and CSS.
+This project is a email designed to be compatible with different email clients. It's built using HTML and CSS.
 
 ## Technologies Used
 
