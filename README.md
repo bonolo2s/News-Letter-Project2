@@ -1,10 +1,17 @@
-# News-Letter-Project2
 
-
-This project is a practice exercise in creating responsive images. The goal is to ensure that images display correctly on various devices.
+# Newsletter Email
 
 ## Description
 
-In this project, I am learning and practicing how to make images responsive based on different devices used. This skill is crucial in today's multi-device world where users view content on a variety of devices such as desktops, laptops, tablets, and smartphones.
+This project is a newsletter email designed to be compatible with different email clients. It's built using HTML and CSS.
 
-By making images responsive, we can ensure that they look good on all devices, regardless of screen size or resolution.
+## Technologies Used
+
+- HTML: Used for structuring the email.
+- CSS: Used for styling the email.
+
+## Features
+
+1. **Media Queries**: This feature allows the email to adapt to different screen sizes, ensuring a responsive design.
+2. **Tables and TD**: Tables and TD elements are used to ensure compatibility with different email clients.
+
